@@ -7,7 +7,7 @@ Please make sure to use the latest versions of these scripts on HPC. The pipelin
 We use the PneumoniaMNIST dataset in .npz format with NumPy arrays for training, validation, and testing. To Obtain the .npz File go to the  [PneumoniaMNIST dataset](https://www.kaggle.com/datasets/rijulshr/pneumoniamnist/data) and place it in the root directory of this project.
 
 __Please compile in order :__
-1. [dataset.py](dataset.py) - The renaming script enforces filename conventions according to PRAGED standards
+1. [MissionProjectFileRename.sh](MissionProjectFileRename.sh) - The renaming script enforces filename conventions according to PRAGED standards
 2. [model.py](model.py) - Loads and modifies pretrained ResNet-50
 3. [utils.py](utils.py) - Utility functions for evaluation
 4. [train.py](train.py) - Trains, fine-tunes the model and saves it
