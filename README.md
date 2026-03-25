@@ -1,9 +1,9 @@
 # PRAGED
 Step by step instruction for analysing WGS and WES data on a routine basis are stored
 
-This project implements a deep learning pipeline to classify chest X-ray images as either Normal or characterised by Pneumonia. The pipeline uses a fine-tuned ResNet-50 model on the [PneumoniaMNIST dataset](https://www.kaggle.com/datasets/rijulshr/pneumoniamnist/data) and is designed to work efficiently even on CPU setups.
+Please make sure to use the latest versions of these scripts on HPC. The pipeline uses a fine-tuned ResNet-50 model on the [PneumoniaMNIST dataset](https://www.kaggle.com/datasets/rijulshr/pneumoniamnist/data) and is designed to work efficiently even on CPU setups.
 
-### Tutorials and Reproducibility section
+### STEP 1: WGS data Preprocessing
 We use the PneumoniaMNIST dataset in .npz format with NumPy arrays for training, validation, and testing. To Obtain the .npz File go to the  [PneumoniaMNIST dataset](https://www.kaggle.com/datasets/rijulshr/pneumoniamnist/data) and place it in the root directory of this project.
 
 __Please compile in order :__
@@ -21,7 +21,6 @@ Lastly, __saved_model__ stores the trained model checkpoint.
 
 ## Code Description
 
-### STEP 1: WGS data Preprocessing ([dataset.py](dataset.py))
 
 First, load train/val/test images and labels from a NumPy zipped file.
 
