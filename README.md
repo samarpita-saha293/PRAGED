@@ -6,7 +6,7 @@ Please make sure to use the latest versions of these scripts on HPC.
 ## WGS and WES data Preprocessing
 We use 
 
-__Data download, rename and transfer (Please compile in order) :__
+__(Please compile in order)__
 1. [MissionProjectFileRename.sh](MissionProjectFileRename.sh) - The renaming script enforces filename conventions according to PRAGED standards.
 2. [MissionProjectFileTransfer.sh](MissionProjectFileTransfer.sh) - This script moves files into Mission project directories and separates PRAGED data from unrelated files.
 3. [utils.py](utils.py) - Utility functions for evaluation
