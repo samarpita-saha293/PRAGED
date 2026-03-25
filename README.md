@@ -8,7 +8,7 @@ Please use the latest versions of these scripts on the HPC.
 __Please compile in order:__
 1. [MissionProjectFileRename.sh](MissionProjectFileRename.sh) - The renaming script enforces filename conventions according to PRAGED standards.
 2. [MissionProjectFileTransfer.sh](MissionProjectFileTransfer.sh) - This script moves files into Mission project directories and separates PRAGED data from unrelated files.
-3. [utils.py](utils.py) - Utility functions for evaluation
+3. [exomescript.sh](exomescript.sh) - Utility functions for evaluation
 4. [train.py](train.py) - Trains, fine-tunes the model and saves it
 5. [eval.py](eval.py) - Loads the trained model and reports metrics
 6. [eval_met.py](eval_met.py) - Prints out the model metrics
