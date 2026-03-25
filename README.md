@@ -1,5 +1,5 @@
 # PRAGED
-Step by step instruction for analysing WGS and WES data on a routine basis are stored
+__A complete guide for analysing PRAGED data on a routine basis__
 
 Please make sure to use the latest versions of these scripts on HPC.
 
