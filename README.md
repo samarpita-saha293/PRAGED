@@ -1,7 +1,7 @@
 # PRAGED
 __A complete guide for analysing PRAGED data on a routine basis__
 
-Please make sure to use the latest versions of these scripts on HPC.
+Please use the latest versions of these scripts on the HPC.
 
 ## WGS and WES data Preprocessing
 We use 
