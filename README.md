@@ -1,7 +1,10 @@
 # PRAGED
 __A complete guide for analysing PRAGED data on a routine basis__
 
-Please use the latest versions of these scripts on the HPC.
+Please use the latest versions of these scripts on the HPC. All the scripts are stored in the mentioned below directory:
+```
+/scratch/diag_ashwin/NGS_Databases_Tools/scripts
+```
 
 ## WGS and WES data Preprocessing
 
@@ -9,12 +12,6 @@ __Please compile in order:__
 1. [MissionProjectFileRename.sh](MissionProjectFileRename.sh) - The renaming script enforces filename conventions according to PRAGED standards.
 2. [MissionProjectFileTransfer.sh](MissionProjectFileTransfer.sh) - This script moves files into Mission project directories and separates PRAGED data from unrelated files.
 3. [exomescript.sh](exomescript.sh)/[genomescript.sh](genomescript.sh) - Utility functions for evaluation
-4. [train.py](train.py) - Trains, fine-tunes the model and saves it
-5. [eval.py](eval.py) - Loads the trained model and reports metrics
-6. [eval_met.py](eval_met.py) - Prints out the model metrics
-7. [eval_miscl.py](eval_miscl.py) - Generates misclassified images
-8. [pr_curve.py](pr_curve.py) - Generates the Precision-Recall curve (Highlights performance under class imbalance by focusing on positive class predictions)
-9. [eval_roc.py](eval_roc.py) - Generates the ROC curve
 
 __In place of exome_script you may use the following script as per your requirement:__
 
@@ -23,13 +20,15 @@ __In place of exome_script you may use the following script as per your requirem
 - [MissionExomeBatchRunwithadapterseq.sh](MissionExomeBatchRunwithadapterseq.sh) -
 - [MissionExomeBatchRun_withouttrimgalore.sh](MissionExomeBatchRun_withouttrimgalore.sh) -
 
-Lastly, __saved_model__ stores the trained model checkpoint.
+## Data upload to AWS
 
-### Code Description
+4. [train.py](train.py) - Trains, fine-tunes the model and saves it
+
+## Data upload to Franklin
 
 
-First, load train/val/test images and labels from a NumPy zipped file.
+5. [eval.py](eval.py) - Loads the trained model and reports metrics
+6. [eval_met.py](eval_met.py) - Prints out the model metrics
+7. [eval_miscl.py](eval_miscl.py) - Generates misclassified images
 
-```
-data = np.load("pneumoniamnist.npz")
-```
+
