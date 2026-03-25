@@ -17,7 +17,10 @@ __Data download, rename and transfer (Please compile in order) :__
 8. [pr_curve.py](pr_curve.py) - Generates the Precision-Recall curve (Highlights performance under class imbalance by focusing on positive class predictions)
 9. [eval_roc.py](eval_roc.py) - Generates the ROC curve
 
-__In place of exome_script you may use the following script as per your requirement.__
+__In place of exome_script you may use the following script as per your requirement:__
+
+- [MissionProjectFileRename.sh](MissionProjectFileRename.sh) -
+- [MissionProjectFileRename.sh](MissionProjectFileRename.sh) -
 
 Lastly, __saved_model__ stores the trained model checkpoint.
 
