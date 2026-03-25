@@ -19,7 +19,7 @@ __Data download, rename and transfer (Please compile in order) :__
 
 __In place of exome_script you may use the following script as per your requirement:__
 
-- [MissionProjectFileRename.sh](MissionProjectFileRename.sh) -
+- [MissionExomeBatchRun.sh](MissionExomeBatchRun.sh) -
 - [MissionProjectFileRename.sh](MissionProjectFileRename.sh) -
 
 Lastly, __saved_model__ stores the trained model checkpoint.
