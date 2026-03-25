@@ -4,9 +4,8 @@ __A complete guide for analysing PRAGED data on a routine basis__
 Please use the latest versions of these scripts on the HPC.
 
 ## WGS and WES data Preprocessing
-We use 
 
-__(Please compile in order)__
+__Please compile in order:__
 1. [MissionProjectFileRename.sh](MissionProjectFileRename.sh) - The renaming script enforces filename conventions according to PRAGED standards.
 2. [MissionProjectFileTransfer.sh](MissionProjectFileTransfer.sh) - This script moves files into Mission project directories and separates PRAGED data from unrelated files.
 3. [utils.py](utils.py) - Utility functions for evaluation
@@ -21,8 +20,8 @@ __In place of exome_script you may use the following script as per your requirem
 
 - [MissionExomeBatchRun.sh](MissionExomeBatchRun.sh) -
 - [MissionExomeBatchRunwithadapterseq.sh](MissionExomeBatchRunwithadapterseq.sh) -
--
--
+- [MissionExomeBatchRun_withouttrimgalore.sh](MissionExomeBatchRun_withouttrimgalore.sh) -
+- 
 
 Lastly, __saved_model__ stores the trained model checkpoint.
 
