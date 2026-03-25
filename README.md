@@ -8,7 +8,7 @@ We use the PneumoniaMNIST dataset in .npz format with NumPy arrays for training,
 
 __Please compile in order :__
 1. [MissionProjectFileRename.sh](MissionProjectFileRename.sh) - The renaming script enforces filename conventions according to PRAGED standards
-2. [model.py](model.py) - Loads and modifies pretrained ResNet-50
+2. [MissionProjectFileTransfer.sh](MissionProjectFileTransfer.sh) - Loads and modifies pretrained ResNet-50
 3. [utils.py](utils.py) - Utility functions for evaluation
 4. [train.py](train.py) - Trains, fine-tunes the model and saves it
 5. [eval.py](eval.py) - Loads the trained model and reports metrics
