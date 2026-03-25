@@ -1,10 +1,10 @@
 # PRAGED
 Step by step instruction for analysing WGS and WES data on a routine basis are stored
 
-Please make sure to use the latest versions of these scripts on HPC. The pipeline uses a fine-tuned ResNet-50 model on the [PneumoniaMNIST dataset](https://www.kaggle.com/datasets/rijulshr/pneumoniamnist/data) and is designed to work efficiently even on CPU setups.
+Please make sure to use the latest versions of these scripts on HPC.
 
 ## WGS and WES data Preprocessing
-We use the PneumoniaMNIST dataset in .npz format with NumPy arrays for training, validation, and testing. To Obtain the .npz File go to the  [PneumoniaMNIST dataset](https://www.kaggle.com/datasets/rijulshr/pneumoniamnist/data) and place it in the root directory of this project.
+We use 
 
 __Please compile in order :__
 1. [MissionProjectFileRename.sh](MissionProjectFileRename.sh) - The renaming script enforces filename conventions according to PRAGED standards.
