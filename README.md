@@ -16,7 +16,7 @@ __Please compile in order:__
 __In place of exome_script you may use the following script as per your requirement:__
 
 - [genomescript_withadapterseq.sh](genomescript_withadapterseq.sh) -
-- [genomescript_withadapterseq.sh](genomescript_withadapterseq.sh) -
+- [genomescript_withouttrimgalore.sh](genomescript_withouttrimgalore.sh) -
 - [MissionExomeBatchRun.sh](MissionExomeBatchRun.sh) -
 - [MissionExomeBatchRunwithadapterseq.sh](MissionExomeBatchRunwithadapterseq.sh) -
 - [MissionExomeBatchRun_withouttrimgalore.sh](MissionExomeBatchRun_withouttrimgalore.sh) -
