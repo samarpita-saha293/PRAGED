@@ -6,7 +6,7 @@ Please make sure to use the latest versions of these scripts on HPC.
 ## WGS and WES data Preprocessing
 We use 
 
-__Please compile in order :__
+__Data download, rename and transfer (Please compile in order) :__
 1. [MissionProjectFileRename.sh](MissionProjectFileRename.sh) - The renaming script enforces filename conventions according to PRAGED standards.
 2. [MissionProjectFileTransfer.sh](MissionProjectFileTransfer.sh) - This script moves files into Mission project directories and separates PRAGED data from unrelated files.
 3. [utils.py](utils.py) - Utility functions for evaluation
@@ -17,7 +17,8 @@ __Please compile in order :__
 8. [pr_curve.py](pr_curve.py) - Generates the Precision-Recall curve (Highlights performance under class imbalance by focusing on positive class predictions)
 9. [eval_roc.py](eval_roc.py) - Generates the ROC curve
 
-In place of exome_script you may use the following script as per your requirement.
+__In place of exome_script you may use the following script as per your requirement.__
+
 Lastly, __saved_model__ stores the trained model checkpoint.
 
 ### Code Description
