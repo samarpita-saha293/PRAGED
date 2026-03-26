@@ -1,1 +1,1 @@
-Here, we have retained all scripts that could be run from /home/diag_ashwin/
+Here, we have retained a copy of all scripts that could be run from /home/diag_ashwin/
