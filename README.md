@@ -23,7 +23,7 @@ __In place of exome_script you may use the following script as per your requirem
 
 ## Data upload to AWS
 
-4. [train.py](train.py) - Trains, fine-tunes the model and saves it
+4. [awstransfer.sh](awstransfer.sh) - Trains, fine-tunes the model and saves it
 
 ## Data upload to Franklin
 
