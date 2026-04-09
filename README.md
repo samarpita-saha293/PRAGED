@@ -11,7 +11,7 @@ Please use the latest versions of these scripts on HPC. All the scripts are stor
 __Please compile in order:__
 1. [MissionProjectFileRename.sh](MissionProjectFileRename.sh) - The renaming script enforces filename conventions according to PRAGED standards.
 2. [MissionProjectFileTransfer.sh](MissionProjectFileTransfer.sh) - This script moves files into Mission project directories and separates PRAGED data from unrelated files.
-3. [exomescript.sh](exomescript.sh)/[genomescript.sh](genomescript.sh) - Utility functions for evaluation
+3. [exomescript.sh](exomescript.sh)/[genomescript.sh](genomescript.sh) - Performs WES and WGS data analysis
 
 __In place of exome_script you may use the following script as per your requirement:__
 
