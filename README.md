@@ -23,7 +23,15 @@ __In place of exome_script you may use the following script as per your requirem
 
 ## Data upload to AWS
 
-4. [awstransfer.sh](awstransfer.sh) - Trains, fine-tunes the model and saves it
+4. [awstransfer.sh](awstransfer.sh) - Transferring processed WES and WGS data
+
+__The files to be uploaded for each sample are:__
+
+- *.fastq.gz
+- *recal.bam
+- *recal.bai
+- *.vcf
+- *.tsv (Annotation files from Annovar)
 
 ## Data upload to Franklin
 
