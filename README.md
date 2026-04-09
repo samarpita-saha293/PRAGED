@@ -36,8 +36,7 @@ __The files to be uploaded for each sample are:__
 ## Data upload to Franklin
 
 
-5. [eval.py](eval.py) - Loads the trained model and reports metrics
-6. [eval_met.py](eval_met.py) - Prints out the model metrics
-7. [eval_miscl.py](eval_miscl.py) - Generates misclassified images
+5. [aws-franklin.sh](aws-franklin.sh) - Uploads Fastq and vcf files to Franklin.
+
 
 
