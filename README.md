@@ -3,7 +3,7 @@ __A complete guide for analysing PRAGED data on a routine basis__
 
 Please use the latest versions of these scripts on HPC. All the scripts are stored in the  below mentioned directory:
 ```
-/scratch/diag_ashwin/NGS_Databases_Tools/scripts
+/home/diag_ashwin/NGS_Databases_Tools/scripts
 ```
 
 ## WGS and WES data Preprocessing
