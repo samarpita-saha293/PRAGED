@@ -143,9 +143,9 @@ fi
 ############################################
 # 7. AWS CREDENTIALS (INLINE – TEMP)
 ############################################
-AWS_ACCESS_KEY_ID="AKIA2ZHDMMUW4CUWJW7N"
-AWS_SECRET_ACCESS_KEY="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"
-AWS_DEFAULT_REGION="eu-west-1"
+AWS_ACCESS_KEY_ID="#####"
+AWS_SECRET_ACCESS_KEY="####"
+AWS_DEFAULT_REGION="####"
 
 export AWS_ACCESS_KEY_ID
 export AWS_SECRET_ACCESS_KEY
