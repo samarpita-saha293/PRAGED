@@ -7,7 +7,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=40
 #SBATCH --mail-type=BEGIN,FAIL,END
-#SBATCH --mail-user=tpragna@cdfd.org.in
+#SBATCH --mail-user=samarpitasaha@cdfd.org.in
 
 module load FastQC
 module load anaconda3-multiqc
