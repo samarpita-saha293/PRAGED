@@ -38,7 +38,8 @@ __The files uploaded for each sample are:__
 
 5. [aws-franklin.sh](aws-franklin.sh) - Uploads Fastq and vcf files to Franklin.
 
-For Running jobs on Reserved node use the command
+
+### For Running jobs on Reserved node use the command
 ```
 sbatch --reservation=diag_ashwin job.sh
 ```
