@@ -45,5 +45,6 @@ __The files uploaded for each sample are:__
 
 ## Data Transfer to IBDC
 
-6. [awstransfer.sh](awstransfer.sh) - 
+6. [awstransfer.sh](awstransfer.sh) -
+7. [IBDC-excelfiling.sh](IBDC-excelfiling.sh)
 
