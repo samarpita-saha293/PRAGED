@@ -45,6 +45,11 @@ __The files uploaded for each sample are:__
 
 ## Data Transfer to IBDC
 
-6. [awstransfer.sh](awstransfer.sh) -
-7. [IBDC-excelfiling.sh](IBDC-excelfiling.sh)
+6. [IBDC-filetransfer.sh](IBDC-filetransfer.sh) - Copies all samples to the current batch and generates MD5 checksums for the copied files.
+
+```
+sbatch IBDC-filetransfer.sh input.sh
+```
+7. [IBDC-excelfiling.sh](IBDC-excelfiling.sh) - Generates an md5sum.txt file containing the MD5 checksums of all fastq.gz files listed in input.txt.
+8.  
 
