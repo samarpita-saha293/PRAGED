@@ -46,4 +46,5 @@ sbatch --reservation=diag_ashwin job.sh
 
 ## Data Transfer to IBDC
 
+6. [awstransfer.sh](awstransfer.sh) - 
 
