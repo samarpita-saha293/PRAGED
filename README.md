@@ -6,7 +6,7 @@ Please use the latest versions of these scripts on HPC. All the scripts are stor
 /home/diag_ashwin/NGS_Databases_Tools/scripts
 ```
 
-### For Running jobs on Reserved node use the command
+### For Running jobs on a reserved node use the command
 ```
 sbatch --reservation=diag_ashwin job.sh
 ```
