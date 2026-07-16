@@ -6,6 +6,11 @@ Please use the latest versions of these scripts on HPC. All the scripts are stor
 /home/diag_ashwin/NGS_Databases_Tools/scripts
 ```
 
+### For Running jobs on Reserved node use the command
+```
+sbatch --reservation=diag_ashwin job.sh
+```
+
 ## WGS and WES data Preprocessing
 
 __Please compile in order:__
@@ -37,12 +42,6 @@ __The files uploaded for each sample are:__
 
 
 5. [aws-franklin.sh](aws-franklin.sh) - Uploads Fastq and vcf files to Franklin.
-
-
-### For Running jobs on Reserved node use the command
-```
-sbatch --reservation=diag_ashwin job.sh
-```
 
 ## Data Transfer to IBDC
 
