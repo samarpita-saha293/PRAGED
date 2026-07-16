@@ -44,6 +44,6 @@ __The files uploaded for each sample are:__
 sbatch --reservation=diag_ashwin job.sh
 ```
 
-
+## Data Transfer to IBDC
 
 
