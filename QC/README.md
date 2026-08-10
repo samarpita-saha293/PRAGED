@@ -6,6 +6,10 @@ Step_1: Navigate to the directory containing all R1 and R2 FASTQ.gz files receiv
 ls -lh > sample_list.tsv
 ```
 
-Step_2: [file_metrics_step1.py](file_metrics_step1.py) - Run the script to extract R1 and R2 files sizes from sample_list.tsv into sample_list_paired.tsv.
+Step_2: [file_metrics_step1.py](file_metrics_step1.py) - Extracst R1 and R2 files sizes from 
+- Input: sample_list.tsv
+- Output: sample_list_paired.tsv.
 
 Step_3: [fetch_file_info_step1.py](fetch_file_info_step1.py) - Fetches and returns values of Total Sequences and Sequence Lengths From Basic stats table for each sample. Make sure that the fastqc.html files of all the required samples are present in the source directory.
+- Input: All html from source directory
+- Output: fastqc_paired_summary.tsv
