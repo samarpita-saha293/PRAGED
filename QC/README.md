@@ -13,3 +13,5 @@ Step_2: [file_metrics_step1.py](file_metrics_step1.py) - Extracst R1 and R2 file
 Step_3: [fastqc_stat_step2.py](fastqc_stat_step2.py) - Fetches and returns values of Total Sequences and Sequence Lengths From Basic stats table for each sample. Make sure that the fastqc.html files of all the required samples are present in the source directory.
 - Input: All html from source directory
 - Output: fastqc_paired_summary.tsv
+
+Step_3: [adapter_content_step3.py](adapter_content_step3.py) - 
