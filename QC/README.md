@@ -5,6 +5,7 @@ Step_1: Navigate to the directory containing all R1 and R2 FASTQ.gz files receiv
 ```
 ls -lh > sample_list.tsv
 ```
+Now, move sample_list.tsv into QC directory. 
 
 Step_2: [file_metrics_step1.py](file_metrics_step1.py) - Extracst R1 and R2 files sizes from 
 - Input: sample_list.tsv
