@@ -18,6 +18,6 @@ Step_4: [adapter_content_step3.py](adapter_content_step3.py) - Extracts adapter-
 - Input: All html from source directory
 - Output: adapter_summary.tsv
 
-Step_4: [merge_info_step4.py](merge_info_step4.py) - Merges sample metadata from previously generated outputs and calculates per-sample sequencing coverage based on the selected genome or exome target region size.
+Step_5: [merge_info_step4.py](merge_info_step4.py) - Merges sample metadata from previously generated outputs and calculates per-sample sequencing coverage based on the selected genome or exome target region size.
 - Input: sample_list_paired.tsv, fastqc_paired_summary.tsv, adapter_summary.tsv
 - Output: final_summary.tsv
