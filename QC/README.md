@@ -14,6 +14,6 @@ Step_3: [fastqc_stat_step2.py](fastqc_stat_step2.py) - Fetches and returns value
 - Input: All html from source directory
 - Output: fastqc_paired_summary.tsv
 
-Step_3: [adapter_content_step3.py](adapter_content_step3.py) - Extracts adapter-content metrics from FASTQC html reports and generates a tsv summary containing the first and last detected coordinates for each sample
+Step_4: [adapter_content_step3.py](adapter_content_step3.py) - Extracts adapter-content metrics from FASTQC html reports and generates a tsv summary containing the first and last detected coordinates for each sample
 - Input: All html from source directory
 - Output: adapter_summary.tsv
